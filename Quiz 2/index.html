@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate() {
+
+            const InputText = document.getElementById('text').value;
+
+            const cnicPattern = /^\d{5}-\d{7}-\d{1}$/;
+            const passportPattern = /^[A-Z0-9]{6,}$/;
+            if ((cnicPattern.test(InputText)) || (passportPattern.test(InputText))) {
+                alert("Valid");
+                return;
+            }
+            else {
+                alert("Invalid")
+                return;
+            }
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <form action="">
+        <label for="">CNIC \ PASSPORT NO</label>
+        <input type="text" placeholder="Enter your CNIC \ PASSPORT NO " id="text" required>
+        <button type="submit" onclick="validate()">Submit</button>
+    </form>
+</body>
+
+</html>

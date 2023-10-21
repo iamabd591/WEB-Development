@@ -1,0 +1,234 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
+
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+     width: 100%;
+     height: 100vh;
+     background: #150e36;
+ }
+
+ .main {
+     position: relative;
+     width: 100%;
+     height: 100%
+ }
+
+ .nave-bar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .nave-bar .logo h1 a {
+     color: #fff;
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 40px;
+     cursor: pointer;
+
+ }
+
+ .menu ul {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .menu ul li {
+     list-style: none;
+     margin-right: 5px;
+     padding: 10px;
+
+ }
+
+ .menu ul li a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 20px;
+     transition: 0.5 ease-in-out;
+     -webkit-transition: 0.5 ease-in-out;
+     -moz-transition: 0.5 ease-in-out;
+     -ms-transition: 0.5 ease-in-out;
+     -o-transition: 0.5 ease-in-out;
+ }
+
+ .menu ul li a:hover {
+     color: #d1288b;
+     text-decoration: underline;
+ }
+
+ .menu ul li a span {
+     border: 2px solid #fff;
+     padding: 10px;
+     background: #d1288b;
+ }
+
+ .menu ul li a span:hover {
+     color: #150e36;
+ }
+
+ .content {
+     display: flex;
+     width: 100%;
+     height: 100vh;
+     /* border: 1px solid #fff; */
+ }
+
+ .content .content-page {
+     border: 1px solid #00acee;
+     width: 50%;
+     height: 660px;
+     padding: 30px;
+     text-align: center;
+ }
+
+ .content .form {
+     border: 1px solid #00acee;
+     width: 50%;
+     height: 660px;
+     float: right;
+     padding: 40px;
+     position: relative;
+     text-align: center;
+     /* display: flex;
+     align-items: center;
+     justify-content: space-between; */
+ }
+
+ .content-page h2 {
+     padding: 20px;
+     margin: 40px 0 0 0;
+     color: #fff;
+     font-size: 50px;
+     font-weight: 500;
+     cursor: pointer;
+ }
+
+ .content-page p {
+     color: #fff;
+     font-size: 20px;
+     text-align: justify;
+ }
+
+ .content-page h4 {
+     padding: 20px;
+     margin: 10px 0 0 0;
+     color: #fff;
+     font-size: 30px;
+     font-weight: 500;
+ }
+
+ .content-page a {
+     font-size: 40px;
+     cursor: pointer;
+ }
+
+ #facebook {
+     color: #3b5998;
+ }
+
+ #instagram {
+     color: #E1306C
+ }
+
+ #linkedin {
+     color: #0A66C2;
+ }
+
+ #twitter {
+     color: #00acee;
+ }
+
+ .form h2 {
+     padding: 30px;
+     font-size: 50px;
+     color: #d1288b;
+     font-weight: 500;
+ }
+
+ .form label {
+     color: #fff;
+     font-size: 20px;
+ }
+
+ .form input {
+     width: 100%;
+     border: 2px solid #00acee;
+     outline: none;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     text-align: center;
+     font-size: 22px;
+     margin: 5px;
+     padding: 10px;
+     background: transparent;
+     color: #fff;
+ }
+
+ .form input::placeholder {
+     color: #fff;
+ }
+
+ .form button {
+     margin-top: 20px;
+     padding: 8px;
+     width: 120px;
+     height: 60px;
+     font-size: 30px;
+     outline: none;
+     border: none;
+     background: #E1306C;
+     color: #fff;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     cursor: pointer;
+ }
+
+ .form a {
+     color: #fff;
+     margin-left: 320px;
+ }
+
+ .form p {
+     color: #fff;
+     font-size: 20px;
+     margin-top: 30px;
+     float: left;
+ }
+
+ .form p a {
+     color: #fff;
+     margin-left: 5px;
+ }
+
+ .form p a:hover {
+     color: #00acee;
+ }
+
+ .footer {
+     width: 100%;
+     height: 70px;
+     border: 1px solid #00acee;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .footer p {
+     color: #fff;
+     font-size: 20px;
+ }
